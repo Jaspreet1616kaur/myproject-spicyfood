@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chef</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="chef.html">CHEF</a>
+        <a href="contact.html">CONTACT </a>
+
+        <a href="menu.html">MENU</a>
+        <a href="about.html">ABOUT</a>
+        <a href="index.html">HOME</a>
+      </div>
+    </nav>
+    <div id="chef">
+      <h1 id="section">Chef</h1>
+    <div id="chef_row">
+        <div class="chef_col">
+          <div id="img">
+            <img src="chef1.jpg" height="300" width="300" />
+          </div>
+          <div>
+            <h4>Sherry mann</h4>
+          </div>
+        </div>
+        <div class="chef_col">
+          <div id="img">
+            <img src="chef5.jpg" width="300" />
+          </div>
+          <div>
+            <h4>Rehan mann</h4>
+          </div>
+        </div>
+        <div class="chef_col">
+          <div id="img">
+            <img src="chef4.jpg" height="300" width="300" />
+          </div>
+          <div>
+            <h4>Shant mann</h4>
+          </div>
+        </div>
+        <div class="chef_col">
+          <div id="img">
+            <img src="chef5.jpg" width="300" />
+          </div>
+          <div>
+            <h4>Shant Sharnam</h4>
+      </div>
+    </div>
+  </div> 
+  <!-- about hiring -->
+    <div class="banner_container">
+      <h2 class="banner_style">HIRING CHEF</h2>
+  </div>
+  <div>
+  <div class="text_container">
+    <div class="scroll_style">
+        <div class="registration_text">
+
+            <form action="show_data.html" method="get">
+                <fieldset>
+                    <div class="left_input">
+                        <label for="first_name"> First Name:</label>
+                        <input class="name_surname_input" type="text" name="first_name" id="first_name" required="">
+                    </div>
+
+                    <div class="right_input">
+                        <label for="last_name">Last Name:</label>
+                        <input class="name_surname_input" type="text" name="last_name" id="last_name" required="">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="left_input">
+                        <label for="city">City:</label>
+                        <input class="city_zip_input" type="text" name="city" id="city" required="">
+                    </div>
+                    <div class="right_input">
+                        <label for="zip_code">Zip Code:</label>
+                        <input type="number" class="city_zip_input" name="zip_code" id="zip_code" required="">
+                    </div>
+                </fieldset>
+                  <fieldset>
+                    <div class="left_input">
+                        <label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+                        <input type="date" class="birth_date_input" name="birth_date" id="birth_date" required="">
+                    </div>
+                    <div class="right_center_input">
+                        <span>Gender:</span>
+                        <input type="radio" name="gender" value="female" class="gender_input" id="female" required="">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="male" class="gender_input" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="left_input">
+                        <span>Experince:</span>
+                        <br>
+                       <input type="radio" class="grade_input" name="grade" value="1" id="1st">
+                        <label for="1st">1 YEAR</label>
+                        <br>
+                        <input type="radio" class="grade_input" name="grade" value="2" id="2nd">
+                        <label for="2nd">2 YEAR</label>
+                        <br>
+                        <input type="radio" class="grade_input" name="grade" value="3" id="3rd">
+                        <label for="3rd">3 YEAR</label>
+                        <br>
+                        <input type="radio" class="grade_input" name="grade" value="4" id="4th">
+                        <label for="4th">4 YEAR</label>
+                        <br>
+                        <input type="radio" class="grade_input" name="grade" value="5" id="5th">
+                        <label for="5th">5 YEAR</label>
+                        <br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="left_input">
+                        <label for="phone">Contact Phone</label>
+                        <input type="number" class="phone_email_input" name="phone" id="phone" required="">
+                    </div>
+                    <div class="right_input">
+                        <label for="email">Contact Email</label>
+                        <input type="email" class="phone_email_input" name="email" id="email">
+                    </div>
+                </fieldset>
+                <h3 class="bold_font">where are  you from?</h3>
+                <fieldset>
+                    <div class="left_input">
+                        <label for="country" class="bold_font">country</label>
+                        <fieldset>
+                            <select name="country_homel" id="country_homel">
+                                <option value="india">India</option>
+                                <option value="pakistan">pakistan</option>
+                                <option value="germany">germany</option>
+                                <option value="america">america</option>
+                                <option value="england">england</option>
+                                <option value="spain">spain</option>
+                            </select>
+                        </fieldset>
+                    </div>
+                </fieldset>
+                <h3 class="bold_font underline">Agreement Condition</h3>
+
+                <fieldset>
+                    <p> the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL)nd activities,personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result . </p>
+                </fieldset>
+
+            
+                <fieldset>
+                    <div class="left_input">
+                        <label for="candidate_signature"> Signature:</label>
+                        <input type="text" class="candidate_signature_input" name="candidate_signature" id="candidates_signature" required="">
+                    </div>
+
+                    <div class="right_input">
+                        <label for="date">Date:</label>
+                        <input type="date" class="date_input" name="date" id="date" required="">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="right_input">
+                        <button name="submit" class="submit_btn" value="submitted">Submit</button>
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+</div> 
+
+  </body>
+</html>
